@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Login Page */
+
+.login {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.brand-logo {
+    margin: 10rem 0 14rem 13rem;
+}
+
+.login-image {
+    margin-left: 6.7rem;
+}
+
+.welcome-section {
+    box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+    padding: 22rem 10rem 0;
+    height: 100vh;
+}
+
+.welcome-header {
+    color: #213F7D;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.welcome-prompt {
+    color: #545F7D;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+
+.email-input, .password-container {
+    border: 2px solid #545F7D26;
+    border-radius: 5px;
+    padding: 1.7rem 1.6rem;
+    margin-bottom: 2.4rem;
+    width: 100%;
+}
+
+.email-input {
+    color: #545F7D;
+    font-size: 1.4rem;
+    outline: 0;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.pass-input {
+    outline: 0;
+    border: 0;
+    flex: 1;
+}
+
+::placeholder {
+    color: #545F7D;
+    opacity: 0.6;
+}
+
+.forgot-pass {
+    margin-bottom: 3rem;
+}
+
+.forgot-pass, .pass-btn {
+    color: #39CDCC;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pass-btn {
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.btn {
+    background-color: #39CDCC;
+    border-radius: .8rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    outline: none;
+    padding: 1.5rem 0;
+    width: 100%;
+}
